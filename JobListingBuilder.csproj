@@ -23,9 +23,6 @@
   <ItemGroup>
     <None Remove="TrackAndFieldPolymorphismWork\obj\TrackAndFieldPolymorphismWork.csproj.nuget.g.props" />
     <None Remove="TrackAndFieldPolymorphismWork\obj\TrackAndFieldPolymorphismWork.csproj.nuget.g.targets" />
-    <None Remove="TrackAndFieldPolymorphismWork\obj\TrackAndFieldPolymorphismWork.csproj.nuget.dgspec.json" />
-    <None Remove="TrackAndFieldPolymorphismWork\obj\project.nuget.cache" />
-    <None Remove="TrackAndFieldPolymorphismWork\obj\project.assets.json" />
     <None Remove="TrackAndFieldPolymorphismWork\obj\Debug\net7.0\TrackAndFieldPolymorphismWork.AssemblyInfoInputs.cache" />
     <None Remove="TrackAndFieldPolymorphismWork\obj\Debug\net7.0\TrackAndFieldPolymorphismWork.assets.cache" />
     <None Remove="TrackAndFieldPolymorphismWork\obj\Debug\net7.0\TrackAndFieldPolymorphismWork.csproj.AssemblyReference.cache" />

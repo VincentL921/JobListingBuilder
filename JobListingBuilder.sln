@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobListingBuilder", "JobLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackAndFieldPolymorphismWork", "TrackAndFieldPolymorphismWork\TrackAndFieldPolymorphismWork.csproj", "{27B4519D-AC24-4EB1-A625-E3E2E59CF7FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarathonPolyWork", "..\MarathonPolyWork\MarathonPolyWork.csproj", "{032B8A9B-95A1-465B-99CE-D3E861D58951}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{27B4519D-AC24-4EB1-A625-E3E2E59CF7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B4519D-AC24-4EB1-A625-E3E2E59CF7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B4519D-AC24-4EB1-A625-E3E2E59CF7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032B8A9B-95A1-465B-99CE-D3E861D58951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032B8A9B-95A1-465B-99CE-D3E861D58951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032B8A9B-95A1-465B-99CE-D3E861D58951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032B8A9B-95A1-465B-99CE-D3E861D58951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
