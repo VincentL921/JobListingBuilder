@@ -10,6 +10,15 @@ namespace MarathonPolyWork
 		public List<People> Participants { get; set; }
 		public List<Spectators> Spectators { get; set; }
 
+		public void GatherRaceWinners()
+		{
+            foreach (var item in this.Participants)
+			{
+                this.Participants.OrderBy(num => num);
+				Console.WriteLine(this.Participants);
+            }
+		}
+
 		public Marathon()
 		{
 			this.Participants = new List<People>();

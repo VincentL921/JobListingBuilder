@@ -1,7 +1,7 @@
 ﻿using System;
 namespace MarathonPolyWork
 {
-	public class Spectators : Event
+	public class Spectators : People
 	{
 		public Spectators()
 		{
