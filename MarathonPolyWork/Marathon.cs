@@ -10,16 +10,26 @@ namespace MarathonPolyWork
 		public List<People> Participants { get; set; }
 		public List<Spectators> Spectators { get; set; }
 
-		//public void GatherRaceWinners()
-		//{
-  //          foreach (var item in this.Participants)
-		//	{
+		public void GetTopFinishers()
+		{
+            var bmFinishers = this.Participants.OrderBy(item => item.FinishingTime);
+            foreach (var item in bmFinishers)
+            {
+                Console.WriteLine(item.FinisherName);
+            }
+        }
 
-  //              IEnumerable<People> query = this.OrderBy(this.Participants => Participants.f);
-  //              //var finishersInOrder = this.Participants.OrderBy(this.Participants);
-		//		Console.WriteLine(finishersInOrder);
-  //          }
-		//}
+		public void GetPodiumWinners()
+		{
+            var bmPodiumWinners = this.Participants.OrderByDescending(n => n.FinishingTime).Take(3);
+            foreach (var witem in bmPodiumWinners)
+			{ 
+                Console.WriteLine(witem.FinisherName);
+                Console.WriteLine(witem.FinishingTime);
+                Console.WriteLine(witem.FinisherCountry);
+                Console.WriteLine("");
+            }
+        }
 
 		public Marathon()
 		{

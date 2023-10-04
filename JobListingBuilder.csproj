@@ -19,6 +19,16 @@
     <Compile Remove="TrackAndFieldPolymorphismWork\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
     <Compile Remove="TrackAndFieldPolymorphismWork\obj\Debug\net7.0\TrackAndFieldPolymorphismWork.GlobalUsings.g.cs" />
     <Compile Remove="TrackAndFieldPolymorphismWork\obj\Debug\net7.0\TrackAndFieldPolymorphismWork.AssemblyInfo.cs" />
+    <Compile Remove="MarathonPolyWork\Event.cs" />
+    <Compile Remove="MarathonPolyWork\Marathon.cs" />
+    <Compile Remove="MarathonPolyWork\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.AssemblyInfo.cs" />
+    <Compile Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.GlobalUsings.g.cs" />
+    <Compile Remove="MarathonPolyWork\Race.cs" />
+    <Compile Remove="MarathonPolyWork\Spectators.cs" />
+    <Compile Remove="MarathonPolyWork\People.cs" />
+    <Compile Remove="MarathonPolyWork\Participants.cs" />
+    <Compile Remove="MarathonPolyWork\Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="TrackAndFieldPolymorphismWork\obj\TrackAndFieldPolymorphismWork.csproj.nuget.g.props" />
@@ -35,5 +45,27 @@
     <None Remove="TrackAndFieldPolymorphismWork\obj\Debug\net7.0\TrackAndFieldPolymorphismWork.genruntimeconfig.cache" />
     <None Remove="TrackAndFieldPolymorphismWork\obj\Debug\net7.0\ref\TrackAndFieldPolymorphismWork.dll" />
     <None Remove="TrackAndFieldPolymorphismWork\obj\Debug\net7.0\TrackAndFieldPolymorphismWork.csproj.FileListAbsolute.txt" />
+    <None Remove="MarathonPolyWork\obj\MarathonPolyWork.csproj.nuget.g.props" />
+    <None Remove="MarathonPolyWork\obj\MarathonPolyWork.csproj.nuget.dgspec.json" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.csproj.FileListAbsolute.txt" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.AssemblyInfoInputs.cache" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.csproj.CoreCompileInputs.cache" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\apphost" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.genruntimeconfig.cache" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.assets.cache" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.csproj.AssemblyReference.cache" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.pdb" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\MarathonPolyWork.dll" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\ref\MarathonPolyWork.dll" />
+    <None Remove="MarathonPolyWork\obj\Debug\net7.0\refint\MarathonPolyWork.dll" />
+    <None Remove="MarathonPolyWork\bin\Debug\net7.0\MarathonPolyWork" />
+    <None Remove="MarathonPolyWork\bin\Debug\net7.0\MarathonPolyWork.runtimeconfig.json" />
+    <None Remove="MarathonPolyWork\bin\Debug\net7.0\MarathonPolyWork.pdb" />
+    <None Remove="MarathonPolyWork\bin\Debug\net7.0\MarathonPolyWork.dll" />
+    <None Remove="MarathonPolyWork\bin\Debug\net7.0\MarathonPolyWork.deps.json" />
+    <None Remove="MarathonPolyWork\obj\MarathonPolyWork.csproj.nuget.g.targets" />
+    <None Remove="MarathonPolyWork\obj\project.nuget.cache" />
+    <None Remove="MarathonPolyWork\obj\project.assets.json" />
   </ItemGroup>
 </Project>
